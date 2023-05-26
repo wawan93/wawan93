@@ -21,43 +21,43 @@ Professional Backend engineer with 10+ years of experience in web development. P
 ## WORK EXPERIENCE
 
 ### Senior Golang Developer. LookFirst.io, New York, remote (Mar 2022 - Present)
-Social network with AI generated images for streamers and Anime fans
+Social network with AI-generated images for streamers and Anime fans
 - Moved golang-monolith into microservices, because of heavy video-processing with CPU
 - Led process of migration from Node.js monolith to Golang + NATS microservice infra
-- Made internal workshop for team of Node.js developers about Golang best practices
-- Worked with Google Cloud functions, tasks, lambda-functions for video-processing and notifications
-- Designed and implemented notifications service from ground up
+- Made an internal workshop for a team of Node.js developers about Golang best practices
+- Worked with Google Cloud functions, tasks, and lambda functions for video processing and notifications
+- Designed and implemented notifications service from the ground up
 **Stack:** Golang, PostgreSQL, NATS, MongoDB, Google Cloud functions, Docker, Kubernetes
 
 ### Lead Golang Developer. Astradot. San Francisco, remote (Jan 2020 - Feb 2022)
-- Worked in USA startup, which mission was enabling to see paths of incoming request through whole infrastructure
+Worked in a USA startup, which mission was enabling to see paths of incoming requests through the whole infrastructure
 - Created an advanced observability OpenTracing tool based on Jaeger's fork with paths ver 1.0
-- Worked on Ingester that enables storing and quering data (volume - 5k traces per second)
+- Worked on Ingester that enables storing and querying data (volume - 5k traces per second)
 - Collected data with Kafka and streamed logs into ElasticSearch and Grafana-Tempo storage
-- Made real-time integration with Kubernetes (k8s)  gathering logs, metrics and health-checks
+- Made real-time integration with Kubernetes (k8s) gathering logs, metrics, and health-checks
 **Stack:** Golang, Kafka, Grafana Tempo, ElasticSearch, AWS, Kubernetes
 
 ### Tech Lead Golang Developer. Blockchain startup. Cyprus, remote (Jan 2019 - Dec 2019)
-- Started as Senior engineer, then grew up to Tech Lead for data blockchain integration
-- Made mobile and web based api for blockchain data (token prices, transactions, volumes)
+Started as a Senior Engineer, then grew up to Tech Lead for data blockchain integration
+- Made mobile and web-based API for blockchain data (token prices, transactions, volumes)
 - Built own blockchain scanner on top of Golang and NATS using ETL pipelines
 - Made integrations with KYC/KYB system
 **Stack:** Golang, PostgreSQL, NATS, Docker, Kubernetes
 
 ### Senior Golang/PHP Developer. SberMegaMarket. Moscow (Oct 2016 - Dec 2018)
-Worked in the biggest retail marketplace with 20+mil MAU from the company’s foundation. During work I have participated in 3 company’s key products
+Worked in the biggest retail marketplace with 20+mil MAU from the company’s foundation. During work, I have participated in 3 company’s key products
 
 **Price Crawler**
 - Developed crawlers and parsers for online retail merchants. Created parsers to get current prices and availability.
 - Optimized code and queries for high load (~10k prices per minute)
-- Provided cleaned data for ML-team via ETL pipelines
+- Provided cleaned data for the ML team via ETL pipelines
 - **Stack:** Golang, NATS, MongoDB, Kafka, Docker, kubernetes
 
 **Logistics service**
 - Our goal was to register orders in delivery services and track their statuses
 - Integration with third-party delivery services' APIs
 - Refactored services to handle 5x more orders
-- Make telegram-bot for monitroing incidents
+- Make a telegram bot for monitoring incidents
 - **Stack:** Golang, PostgreSQL
 
 **Authorization microservice**
